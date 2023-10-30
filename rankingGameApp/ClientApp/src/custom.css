@@ -12,3 +12,20 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.items-not-ranked {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.unranked-cell {
+    width:80px;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.unranked-cell img{
+    width:100%;
+    height: 100%;
+}
