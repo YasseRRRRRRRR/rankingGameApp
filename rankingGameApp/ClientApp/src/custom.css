@@ -13,6 +13,13 @@ code {
   border-color: #1861ac;
 }
 
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .items-not-ranked {
     display: flex;
     justify-content: space-evenly;
@@ -24,8 +31,50 @@ code {
     text-align: center;
     margin-left: 2px;
 }
-
-.unranked-cell img{
-    width:100%;
+.rank-cell img {
+    width: 100%;
     height: 100%;
+}
+.unranked-cell img {
+    width: 100%;
+    height: 70%;
+}
+
+.rankings{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.rank-row{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-tier{
+    background-color: yellow;
+}
+
+.middle-tier{
+    background-color: greenyellow;
+}
+
+.bottom-tier{
+    background-color: brown;
+}
+
+.worst-tier{
+    background-color: red;
+}
+
+.rank-cell, .row-label {
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
